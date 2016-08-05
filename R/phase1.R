@@ -133,12 +133,10 @@ phase1 <- function(input, output, session) {
     content =
       function(file)
       {
-        message("entering content function")
         rmarkdown::render(
           input = system.file("report_file.Rmd", package = "dtphase1"),
           output_file = system.file("built_report.pdf", package = "dtphase1")
         )
-        message("passed rmarkdown::render function")
         readBin(con = system.file("built_report.pdf", package = "dtphase1"),
           what = "raw",
           n = file.info(system.file("built_report.pdf", package = "dtphase1"))[, "size"]) %>%
