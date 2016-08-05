@@ -93,7 +93,7 @@ phase1UI <- function(id){
       label = "Download PDF"
     ),
 
-    shiny::fluidRow(system.file("flowchart.png", package="dtphase1"))
+    shiny::fluidRow(shiny::img(src = system.file("flowchart.png", package="dtphase1")))
     #shiny::fluidRow(shiny::img(src = "www/flowchart.png"))
 
   ) #close fluidPage
