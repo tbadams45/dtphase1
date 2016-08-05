@@ -1,0 +1,16 @@
+Package: dtphase1
+Type: Package
+Title: Add Phase 1 of the Decision Tree Framework To A Shiny App
+Version: 0.1.0
+Author: Timothy Adams
+Maintainer: Timothy Adams <tbadams45@gmail.com>
+Description: dtphase1 exports a shiny module which allows the easy inclusion
+    of the Phase 1 Climate Screening Worksheet into a Shiny App.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shiny,
+    rmarkdown,
+    magrittr
+RoxygenNote: 5.0.1
