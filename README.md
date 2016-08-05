@@ -4,7 +4,7 @@ This package implements Phase 1 of the [Decision Tree Framework]( https://openkn
 To use, install with devtools:
 
 ```r 
-if(!require(devtools)) {
+if(!require("devtools")) {
  install.packages("devtools")
 }
 devtools::install_github("tbadams45/dtphase1")
