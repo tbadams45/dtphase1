@@ -24,7 +24,9 @@ the same string that you use in phase1UI.
 \examples{
 \dontrun{
 # minimal example
-ui <- phase1UI("p1")
+ui <- fluidPage(
+  phase1UI("p1")
+)
 server <- function(input, output, session) {
  callModule(phase1, "p1")
 }

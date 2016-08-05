@@ -20,7 +20,9 @@ should call it in the ui function of your shiny app.
 \examples{
 \dontrun{
 # minimal example
-ui <- phase1UI("p1")
+ui <- fluidPage(
+  phase1UI("p1")
+)
 server <- function(input, output, session) {
  callModule(phase1, "p1")
 }

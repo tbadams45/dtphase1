@@ -11,7 +11,9 @@
 #' @examples
 #' \dontrun{
 #' # minimal example
-#' ui <- phase1UI("p1")
+#' ui <- fluidPage(
+#'   phase1UI("p1")
+#' )
 #' server <- function(input, output, session) {
 #'  callModule(phase1, "p1")
 #' }
@@ -93,8 +95,10 @@ phase1UI <- function(id){
       label = "Download PDF"
     ),
 
-    shiny::fluidRow(shiny::img(src = system.file("flowchart.png", package="dtphase1")))
-    #shiny::fluidRow(shiny::img(src = "www/flowchart.png"))
+    get_flowchart()
+    # neither of these seem to work as intended.
+    # shiny::fluidRow(shiny::img(src = system.file("flowchart.png", package="dtphase1")))
+    # shiny::fluidRow(shiny::img(src = "www/flowchart.png"))
 
   ) #close fluidPage
 }
@@ -114,7 +118,9 @@ phase1UI <- function(id){
 #' @examples
 #' \dontrun{
 #' # minimal example
-#' ui <- phase1UI("p1")
+#' ui <- fluidPage(
+#'   phase1UI("p1")
+#' )
 #' server <- function(input, output, session) {
 #'  callModule(phase1, "p1")
 #' }

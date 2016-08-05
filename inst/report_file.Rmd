@@ -6,7 +6,7 @@ output: pdf_document
 
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(echo = FALSE) 
-library(shiny) 
+library(shiny)
 ```
 
 ## Project Title: `r input$title`
@@ -119,6 +119,10 @@ if((input$lifetime == 'Yes' & input$project_type == 'Infrastructure') |
 (input$lifetime == 'Yes' & input$project_type == 'Policy' & input$water_alloc ==
 'Yes' & input$reversible == 'No')){ strong("Based on your evaluation,", "this
 project requires a Phase 2 sensitivity analysis.") }
+```
+
+```{r chart}
+#get_flowchart() causes error. Not sure why. This means that you'll have to rebuild the flowchart everytime you make a change in the flowchart.R file...
 ```
 
 ![Is Phase 2 necessary for this project?](www/flowchart.png)
