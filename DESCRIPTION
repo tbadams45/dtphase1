@@ -6,7 +6,7 @@ Author: Timothy Adams
 Maintainer: Timothy Adams <tbadams45@gmail.com>
 Description: dtphase1 exports a shiny module which allows the easy inclusion
     of the Phase 1 Climate Screening Worksheet into a Shiny App.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:

@@ -93,7 +93,8 @@ phase1UI <- function(id){
       label = "Download PDF"
     ),
 
-    shiny::fluidRow(shiny::img(src = "www/flowchart.png"))
+    shiny::fluidRow(system.file("flowchart.png", package="dtphase1"))
+    #shiny::fluidRow(shiny::img(src = "www/flowchart.png"))
 
   ) #close fluidPage
 }
@@ -126,10 +127,12 @@ phase1 <- function(input, output, session) {
     content =
       function(file)
       {
+        message("entering content function")
         rmarkdown::render(
           input = system.file("report_file.Rmd", package = "dtphase1"),
           output_file = system.file("built_report.pdf", package = "dtphase1")
         )
+        message("passed rmarkdown::render function")
         readBin(con = system.file("built_report.pdf", package = "dtphase1"),
           what = "raw",
           n = file.info(system.file("built_report.pdf", package = "dtphase1"))[, "size"]) %>%
