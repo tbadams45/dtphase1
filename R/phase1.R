@@ -24,7 +24,7 @@ phase1UI <- function(id){
   ns <- shiny::NS(id)
 
   shiny::fluidPage(
-    shiny::titlePanel("Phase 1 - Climate Response Worksheet: Quantifying Climate Uncertainty"),
+    shiny::titlePanel("Phase 1 - Climate Screening Worksheet"),
 
     shiny::h2("Project Title:"),
     shiny::textInput(ns("title"), label = NULL),
