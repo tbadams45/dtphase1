@@ -24,3 +24,5 @@ server <- function(input, output, session) {
 
 shinyApp(ui = ui, server = server)
 ```
+
+If you'd like to see this package in action alongside each of the other three phases in the Decision Tree Framework, [go here](https://github.com/tbadams45/decision-tree).
