@@ -1,7 +1,7 @@
 Package: dtphase1
 Type: Package
 Title: Add Phase 1 of the Decision Tree Framework To A Shiny App
-Version: 0.2.2
+Version: 0.2.3
 Author: Timothy Adams
 Maintainer: Timothy Adams <tbadams45@gmail.com>
 Description: dtphase1 exports a shiny module which allows the easy inclusion
