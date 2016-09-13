@@ -125,5 +125,6 @@ project requires a Phase 2 sensitivity analysis.") }
 
 ```{r chart}
 #get_flowchart() causes error. Not sure why. This means that you'll have to rebuild the flowchart everytime you make a change in the flowchart.R file...
-#![Is Phase 2 necessary for this project?](www/flowchart.png)
 ```
+
+![Is Phase 2 necessary for this project?](www/flowchart.png)
