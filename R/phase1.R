@@ -57,7 +57,7 @@ phase1UI <- function(id){
     ),
 
     cp(condition = sprintf("input['%s'] == 'Yes' && input['%s'] == 'Policy'", ns("lifetime"), ns("project_type")),
-      shiny::radioButtons(ns("water_alloc"), "Does the policy involve water price changes, or allocation to irrigation or domestic demands?",
+      shiny::radioButtons(ns("water_alloc"), "Does the policy have water allocation effects (e.g., via price changes or laws)?",
         c("None selected" = "N/A",
           "Yes" = "Yes",
           "No" = "No"),
@@ -67,7 +67,7 @@ phase1UI <- function(id){
     cp(condition = sprintf("input['%s'] == 'Yes' && input['%s'] == 'Policy' && input['%s'] == 'Yes'",
       ns("lifetime"), ns("project_type"), ns("water_alloc")),
       shiny::radioButtons(ns("reversible"),
-        "Is the policy easily easily reversible should it prove unfavorable?",
+        "Is the policy easily easily reversible upon further information?",
         c("None selected" = "N/A",
           "Yes" = "Yes",
           "No"  = "No"),
