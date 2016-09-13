@@ -95,6 +95,8 @@ phase1UI <- function(id){
       label = "Download PDF"
     ),
 
+    shiny::p("Please note that your download may take some time."),
+
     get_flowchart()
     # neither of these seem to work as intended.
     # shiny::fluidRow(shiny::img(src = system.file("flowchart.png", package="dtphase1")))

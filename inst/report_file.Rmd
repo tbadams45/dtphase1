@@ -1,7 +1,9 @@
 --- 
 title: "Climate Screening Worksheet" 
 date: "August 2, 2016" 
-output: pdf_document 
+output: 
+  pdf_document:
+    latex_engine: xelatex
 ---
 
 ```{r setup, include=FALSE} 
