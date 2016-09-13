@@ -1,4 +1,4 @@
-## unCertainties 
+## unCertainties:
 
 - What are the principal uncertainties (1) in the short term (for example, climate, demographic, economic, and political factors) and (2) in the long term (that is, after the first 10-20 years)?
 - Are the uncertainties the result of lack of data or lack of observations, or are they largely irreducible? 
