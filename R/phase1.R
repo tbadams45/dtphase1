@@ -131,18 +131,16 @@ phase1UI <- function(id){
 #' @export
 phase1 <- function(input, output, session) {
   output$downloader <- shiny::downloadHandler(
-    "climate-response-worksheet.pdf",
+    filename = function() {
+      paste("phase1-worksheet.", Sys.Date(), ".pdf", sep = '')
+    },
     content =
-      function(file)
-      {
+      function(file) {
         rmarkdown::render(
           input = system.file("report_file.Rmd", package = "dtphase1"),
-          output_file = system.file("built_report.pdf", package = "dtphase1")
+          output_format = "pdf_document",
+          output_file = file
         )
-        readBin(con = system.file("built_report.pdf", package = "dtphase1"),
-          what = "raw",
-          n = file.info(system.file("built_report.pdf", package = "dtphase1"))[, "size"]) %>%
-          writeBin(con = file)
       }
   )
 }
