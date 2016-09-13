@@ -67,7 +67,7 @@ phase1UI <- function(id){
     cp(condition = sprintf("input['%s'] == 'Yes' && input['%s'] == 'Policy' && input['%s'] == 'Yes'",
       ns("lifetime"), ns("project_type"), ns("water_alloc")),
       shiny::radioButtons(ns("reversible"),
-        "Is the policy easily easily reversible upon further information?",
+        "Is the policy easily reversible upon further information?",
         c("None selected" = "N/A",
           "Yes" = "Yes",
           "No"  = "No"),

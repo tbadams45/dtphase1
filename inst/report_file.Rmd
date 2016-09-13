@@ -19,16 +19,12 @@ Welcome to Phase 1 of the Decision Tree Framework: the Climate Screening Workshe
 worksheet will help you determine if the project under consideration requires a
 Phase 2 analysis.
 
-The first and most important component to completing Phase 1 is a thoughtful
-reflection and analysis of your project. The Four C's provide strategic
-questions to guide your thinking. You are encouraged to add or remove particular
-questions based on their relevance to the project.
+**The primary purpose of Phase 1 is to provide notes and keywords that justify the classification you eventually choose for this project.** This will necessarily include a thoughtful reflection and analysis of your project. The Four C's provide strategic questions to guide your thinking.  You are encouraged to add or remove particular questions based on their relevance to the project. **No response in a particular text box need exceed 100 words for Phase 1 to be completed sucessfully.**
 
 After you have spent some time reflecting on the project, fill out the basic
 questions at the bottom of this page to determine whether or not the project
 requires a Phase 2 sensitivity analysis. You can then download this page, along
 with your responses, for your records.
-
 
 ## Choices:
 
@@ -47,9 +43,9 @@ with your responses, for your records.
 
 ## Consequences: 
 
-- What are the project’s benefits and costs, or are other performance indicators primary? 
+- What are the project's benefits and costs, or are other performance indicators primary? 
 - How are benefits and costs distributed spatially, temporally, and socioeconomically? 
-- How are the project’s benefits and costs measured? 
+- How are the project's benefits and costs measured? 
 - Can all benefits and costs be monetized? 
 - What are the performance thresholds, that is, the criteria for designation as failure or success? 
 - What are the windfall possibilities (best case), and what are the worst-case consequences of failure? 
@@ -68,7 +64,7 @@ quantified and analyzed?
 - Is the success of the project tied to the success of other projects outside the scope of the immediate evaluation? 
 - What are the modeling interconnections (that is, what model input must be generated using other models, such as climate model data into hydrologic models, and hydrologic model data into systems models)?
 - What are the scheduling interconnections (that is, what other projects must be completed before this project can begin, and what other projects must wait for this project to be completed)?
-- Is there wide agreement on the project’s interconnections?
+- Is there wide agreement on the project's interconnections?
 
 **Your response:**
 
@@ -82,7 +78,7 @@ quantified and analyzed?
 - Is data collection obstructed by matters of national security or secrecy of another kind? 
 - How do the uncertainties interact? 
 - How might the various uncertainties (principal and minor) be weighted? 
-- Are the uncertainties fairly well understood and quantifiable, or would they be better described as “deep”? 
+- Are the uncertainties fairly well understood and quantifiable, or would they be better described as "deep"? 
 - If trends in available data are discernible, what do the trends indicate, and how well do the historical trends match the projections? 
 - Do the various stakeholders agree on the relative significance of the uncertainties? 
 - Can a probability distribution be fitted to the uncertainties? Can they be modeled statistically?
