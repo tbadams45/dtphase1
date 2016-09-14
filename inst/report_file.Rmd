@@ -1,6 +1,6 @@
 --- 
-title: "Climate Screening Worksheet" 
-date: "August 2, 2016" 
+title: '`r paste0(input$title, ": ", "Climate Screening Worksheet")`' 
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output: 
   pdf_document:
     latex_engine: xelatex
