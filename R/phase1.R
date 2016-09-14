@@ -139,7 +139,8 @@ phase1 <- function(input, output, session) {
         rmarkdown::render(
           input = system.file("report_file.Rmd", package = "dtphase1"),
           output_format = "pdf_document",
-          output_file = file
+          output_file = file,
+          intermediates_dir = paste0(getwd())
         )
       }
   )
